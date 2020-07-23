@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+  	<title>WEBWARE</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="sample_page_1_style.css">
+	
+</head>
+
+<body>
+	
+  	<img src="sample_page_1_images/header_img.jpg" alt="Header image." class="header">
+
+  	<button class="accordion">WHO WE ARE</button>
+	
+  	<div class="panel">
+		<div class="bgimg_1"></div>
+	  	<div class="content_1">
+	  	<hr/>
+	  	<h3>Changing the World</h3>
+	  	<h4>We are dedicated to solving the world's problems by advancing technology one step at a time...</h4>
+			<p class="p_text">Webware is an American technology startup company based in the Silicon Valley region of California. Founded by Ali Abedi in 2020, the company went from modifying computer parts to becoming a full scale hardware manufacturer. What started out in a garage now has a headquarters, a manufacturing plant, and a customer service center. 
+			<br/><br/>
+			We aim to deliver the world's most innovative technology. All of our products are developed to be more efficient than what is currently on the market. We offer high performance CPUs, mother boards, graphics cards, memory drives, optical drives, and cooling solutions.</p>
+			<hr/>
+	  	</div>
+ 	</div>
+
+  	<button class="accordion">OUR CURRENT PRODUCTS</button>
+	
+  	<div class="panel">
+		<div class="bgimg_2"></div>
+		<div class="content_2">
+	  	<hr/>
+	  	<h3 class="text_2">Engineered for High Performace</h3>
+      	<h4 class="text_2">Explore our current products:</h4>
+	  		<div class="current_models_table">
+				<div class="current_models"><b>Processor</b>
+				<img id="GTC4Lusso" src="sample_page_1_images/WCPU.jpg">
+					<p>Price: $450</p>
+					<p>Product Name: WCPUX2</p>
+					<p>18 Cores</p>
+					<p>36 Threads</p>
+					<p>4.4 GHZ Max Frequency</p>
+				</div>
+				<div class="current_models"><b>Mother Board</b>
+				<img id="F8_Tributo" src="sample_page_1_images/WMB.jpg">
+					<p>Price: $400</p>
+					<p>Product Name: WMBX3</p>
+					<p>4x DIMM </p>
+					<p>4x HDMI, 2x DP, 8x USB</p>
+					<p>Ethernet 900 Mbps</p>
+				</div>
+				<div class="current_models"><b>Graphics Card</b>
+				<img id="Portofino" src="sample_page_1_images/WGC.jpg">
+					<p>Price: $200</p>
+					<p>Product Name: WGCX1</p>
+					<p>5600 CUDA Cores</p>
+					<p>1750-2250 MHz Clock Speed</p>
+					<p>600 GB/s Memory Bandwidth
+				</div>
+				<div class="current_models"><b>Memory Drive</b>
+				<img id="Superfast" src="sample_page_1_images/WMD.jpg">
+					<p>Price: $250</p>
+					<p>Product Name: WMDX7</p>
+					<p>8TB</p>
+					<p>Solid State Drive</p>
+					<p>3000 Mbps Write Speed</p>
+				</div>
+				<div class="current_models"><b>Optical Drive</b>
+				<img id="SF90_Stradale" src="sample_page_1_images/WOD.jpg">
+					<p>Price: $100</p>
+					<p>Product Name: WODX2</p>
+					<p>16x Blu-ray Disk Rewriter</p>
+					<p>SATA Infterface</p>
+					<p>650 Mbps Sustained Rate</p>
+				</div>
+				<div class="current_models"><b>Cooling</b>
+				<img id="Roma" src="sample_page_1_images/WC.jpg">
+					<p>Price: $150</p>
+					<p>Product Name: WCX2</p>
+					<p>Liquid Cooling</p>
+					<p>350-1800RPM Fan Speec</p>
+					<p>2.5 lbs Weight</p>
+				</div>
+	  		</div>
+			<!-- slideshow -->
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<img id="GTC4Lusso_slideshow" src="sample_page_1_images/WCPU.jpg">
+				</div>
+				<div class="mySlides fade">
+					<img id="F8_Tributo_slideshow" src="sample_page_1_images/WMB.jpg">
+				</div>
+				<div class="mySlides fade">
+					<img id="Portofino_slideshow" src="sample_page_1_images/WGC.jpg">
+				</div>
+				<div class="mySlides fade">
+					<img id="Superfast_slideshow" src="sample_page_1_images/WMD.jpg">
+				</div>
+				<div class="mySlides fade">
+					<img id="SF90_Stradale_slideshow" src="sample_page_1_images/WOD.jpg">
+				</div>
+				<div class="mySlides fade">
+					<img id="Roma_slideshow" src="sample_page_1_images/WC.jpg">
+				</div>		
+				<a class="prev" onclick="plusSlides(-1), plusSpecs(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1), plusSpecs(1)">&#10095;</a>
+	  		</div>
+	  		<br>
+	  		<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1), currentSpec(1)"></span>
+				<span class="dot" onclick="currentSlide(2), currentSpec(2)"></span>
+				<span class="dot" onclick="currentSlide(3), currentSpec(3)"></span>
+				<span class="dot" onclick="currentSlide(4), currentSpec(4)"></span>
+				<span class="dot" onclick="currentSlide(5), currentSpec(5)"></span>
+				<span class="dot" onclick="currentSlide(6), currentSpec(6)"></span>
+	  		</div>
+			<!-- slideshow specs -->
+			<div class="current_models_specs_ss">
+				<div class="specs"><b>Processor</b>
+					<p>Price: $450</p>
+					<p>Product Name: WCPUX2</p>
+					<p>18 Cores</p>
+					<p>36 Threads</p>
+					<p>4.4 GHZ Max Frequency</p>
+				</div>
+				<div class="specs"><b>Mother Board</b> 
+					<p>Price: $400</p>
+					<p>Product Name: WMBX3</p>
+					<p>4x DIMM </p>
+					<p>4x HDMI, 2x DP, 8x USB</p>
+					<p>Ethernet 900 Mbps</p>
+				</div>
+				<div class="specs"><b>Graphics Card</b>
+					<p>Price: $200</p>
+					<p>Product Name: WGCX1</p>
+					<p>5600 CUDA Cores</p>
+					<p>1750-2250 MHz Clock Speed</p>
+					<p>600 GB/s Memory Bandwidth
+				</div>
+				<div class="specs"><b>Memory Drive</b>
+					<p>Price: $250</p>
+					<p>Product Name: WMDX7</p>
+					<p>8TB</p>
+					<p>Solid State Drive</p>
+					<p>3000 Mbps Write Speed</p>
+				</div>
+				<div class="specs"><b>Optical Drive</b>
+					<p>Price: $100</p>
+					<p>Product Name: WODX2</p>
+					<p>16x Blu-ray Disk Rewriter</p>
+					<p>SATA Infterface</p>
+					<p>650 Mbps Sustained Rate</p>
+				</div>
+				<div class="specs"><b>Cooling</b>
+					<p>Price: $150</p>
+					<p>Product Name: WCX2</p>
+					<p>Liquid Cooling</p>
+					<p>350-1800RPM Fan Speec</p>
+					<p>2.5 lbs Weight</p>
+				</div>
+	  		</div>
+	  	<hr/>
+		</div> 
+	</div>
+
+	<button class="accordion">CONTACT</button>
+		
+  	<div class="panel">
+		<div class="bgimg_3"></div>
+		<hr/>
+		<h3 class="text_2">Contact Us</h3>
+      	<h4 class="text_2">If you have any questions or comments, you can reach out to any of our departments:</h4>
+	    <!-- form -->
+		<div class="container">
+  		<form action="action_page.php">	
+    		<div class="form_row">
+      			<div class="col_25">
+        			<label for="name">Name:</label>
+      			</div>
+      			<div class="col_75">
+        			<input type="text" id="form_name" name="form_name" placeholder="Your name..">
+      			</div>
+    		</div>
+			<div class="form_row">
+      			<div class="col_25">
+        			<label for="form_region">Region:</label>
+      			</div>
+      			<div class="col_75">
+        			<select id="form_region" name="form_region">
+						<option value="" disabled selected>Select your region</option>
+						<option value="north_america">North America</option>
+          				<option value="europe">Europe</option>
+						<option value="asia">Asia</option>
+						<option value="other">Other</option>
+        			</select>
+      			</div>
+    		</div>
+			<div class="form_row">
+      			<div class="col_25">
+        			<label for="form_department">Department:</label>
+      			</div>
+      			<div class="col_75">
+        			<select id="form_department" name="form_department">
+						<option value="" disabled selected>Select your department</option>
+						<option value="sales">Sales</option>
+						<option value="customerservice">Customer Service</option>
+						<option value="hr">Human Resources</option>
+						<option value="other">Other</option>
+        			</select>
+      			</div>
+    		</div>			
+    		<div class="form_row">
+      			<div class="col_25">
+        			<label for="subject">Subject:</label>
+      			</div>
+      			<div class="col_75">
+        			<input type="text" id="form_subject" name="form_subject" placeholder="Subject of message..">
+      			</div>
+    		</div>			
+    		<div class="form_row">
+      			<div class="col_25">
+        			<label for="form_message">Message:</label>
+      			</div>
+      			<div class="col_75">
+        			<textarea id="form_message" name="form_message" placeholder="Write something.." style="height:200px"></textarea>
+      			</div>
+    		</div>		
+    		<div class="form_row">
+      			<input type="submit" value="Submit" disabled>
+    		</div>
+		</form>
+		</div>
+  	</div>
+	<hr/>
+	
+	<p class="footer">Copyright © Ali Abedi [May 2020]</p>
+	
+	<!-- Javascript -->	
+	<script>
+		
+		/* JS for menu */
+	 	var acc = document.getElementsByClassName("accordion");
+	 	var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+			  	panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		  	});
+		}
+		
+		/* JS for slideshow */
+		var slideIndex = 1;
+		var specIndex = 1;
+		showSlides(slideIndex);
+		showSpecs(specIndex);
+
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function plusSpecs(n) {
+  			showSpecs(specIndex += n);
+		}
+
+		function currentSpec(n) {
+  			showSpecs(specIndex = n);
+		}
+		
+		function showSlides(n) {
+  			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+      			slides[i].style.display = "none";  
+  			}
+  			for (i = 0; i < dots.length; i++) {
+      			dots[i].className = dots[i].className.replace(" active_ss", "");
+  			}
+  			slides[slideIndex-1].style.display = "block";  
+  			dots[slideIndex-1].className += " active_ss";
+		}
+		
+		function showSpecs (n) {
+			var i;
+			var specs = document.getElementsByClassName("specs");
+			if (n > specs.length) {specIndex = 1} 
+			if (n < 1) {specIndex = specs.length}
+			for (i = 0; i < specs.length; i++) {
+      			specs[i].style.display = "none";  
+  			}
+			specs[specIndex-1].style.display = "block"; 
+		}
+		
+	</script>
+		
+</body>
+	
+</html>
+
+
+
+<!------------ Copyright © Ali Abedi [May 2020] ------------> 
