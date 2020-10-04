@@ -41,7 +41,7 @@ h3 {
   transition: max-height 1s ease-out;
 }
 .accordion:after {
-  content: '\02795'; /* Unicode "plus" sign (+) */
+  content: '\2795'; /* Unicode "plus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
