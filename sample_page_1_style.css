@@ -286,7 +286,7 @@ input[type=submit] {
 
 hr {
   border: none;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
 }
 .footer {
   font-size: 0.7em;
